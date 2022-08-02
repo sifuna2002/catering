@@ -1,0 +1,31 @@
+.counter{
+  position: absolute;
+  right:10px;
+  bottom: 10px;
+  border-radius: 20px;
+  border: 0;
+  outline: none;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+  height: 30px;
+  border: 1px solid teal;
+  overflow: hidden; 
+  font-size: 12px;
+  font-weight: 600;
+  .count{
+    padding: 0 5px;
+    height: 100%;
+    outline: none;
+    &:first-child{
+      border-right: 1px solid teal;
+    }
+    &:last-child{
+      border-left: 1px solid teal;
+    }
+  }
+  .text{
+    
+    padding: 0 8px;
+  }
+}
